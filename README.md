@@ -8,6 +8,6 @@ Existing functionality contains following:
 
 ## Content
 
-Developing is in progress based on next blockchains:
+Development is in progress based on next blockchains:
 - Solana;
 - Ethereum;
