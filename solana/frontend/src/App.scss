@@ -1,0 +1,78 @@
+body > #root > div {
+  height: 100vh;
+}
+body {
+  font-family: 'Urbanist', sans-serif;
+}
+
+html {
+  background: rgb(203,156,163);
+  background: linear-gradient(153deg, rgba(203,156,163,1) 0%, rgba(153,87,100,1) 9%, rgba(103,37,78,1) 32%, rgba(33,0,83,1) 74%, rgba(17,12,59,1) 88%);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+}
+
+button {
+  background: rgba(17,12,59,1);
+  font-family: 'Urbanist', sans-serif;
+  color: rgb(203,156,163);
+  border-radius: 4px;
+  font-size: 20px;
+  height: 60px;
+  width: 20%;
+  margin: 2%;
+}
+
+button:hover {
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgba(17,12,59,1), rgba(33,0,83,1), rgba(103,37,78,1), rgba(153,87,100,1), rgb(203,156,163)) 1;
+}
+
+
+
+.fundCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight:500;
+}
+
+.fundCard > div {
+  margin: 5%;
+}
+
+.fundInfo {
+  display: grid;
+  background: rgba(203,156,163,0.4);
+  border-radius: 5px;
+  width: 40%;
+  padding: 2%;
+}
+
+.fundActivity {
+  background: rgba(203,156,163,0.4);
+  border-radius: 5px;
+  width: 20%;
+  padding: 2%;
+}
+
+.fundInfo button, 
+.fundActivity button{
+  width: 60%;
+  height: 40px;
+  margin: 5%;
+}
+
+input[type=text] {
+  height: 30px;
+  width: 40px;
+  background-color: rgb(203,156,163);
+  border: 0ch;
+  margin: 2%
+}
+
+input:focus {
+  border: 1px;
+}
+
