@@ -18,7 +18,7 @@ Contract has the following features:
 
 2. Start local node: `npx hardhat node`
 
-3. Deploy `Testament` contract `npx hardhat run scripts/deploy.ts --network localhost`
+3. Deploy `Crowdfunding` contract `npx hardhat run scripts/deploy.ts --network localhost`
 
 4. Start hardhat console `npx hardhat console --network localhost`
 
