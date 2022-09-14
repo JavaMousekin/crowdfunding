@@ -1,7 +1,7 @@
 {
-    "name": "testament",
+    "name": "crowdfunding",
     "version": "0.1.0",
-    "description": "Solidity testament contract",
+    "description": "Solidity crowdfunding contract",
     "main": "index.js",
     "scripts": {},
     "author": "",
